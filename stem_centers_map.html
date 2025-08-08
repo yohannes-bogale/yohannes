@@ -1,1 +1,284 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {"STEM+Centers+Map.csv":false};
+        var gk_fileData = {"STEM+Centers+Map.csv":"HOST,CITY,REGION,COUNTRY,CLUSTER,CONTACT,PHONE#,EMAIL,LABS,FUNDER,YEAR ESTABLISHED\r\nCentral University of Technology STEM Center ,Bloemfontein,Free State,South Africa ,AF-O,Dr. Adeyinka Akanbi,27.631.356.812,aakanbi÷cut.ac.za,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nKapoeta Teachers Training Institute STEM Center,Kapoeta,Eastern Equatoria,South Sudan,SS,Apaya,,apaya÷adrasouthsudan.org,\"COMP, ELEX, 3DP, HISC\",STEMpower,2021\r\nBonga University STEM Center,Bonga,South West Ethiopia Peoples',Ethiopia,ET-S,Dr. Woynishet Haile,251.913.156635,woyni2gabon÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nKotebe Science Shared Campus STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Mr. Abel,251.939.411696,maranathaabel÷gmail.com,\"COMP, ELEX\",GFCT,2015\r\nUniversidade de Cabo Verde,Praia,Souther Coast,Cape Verde,AF-O,,,,\"COMP, ELEX, 3DP\",STEMpower,2025\r\n Asosa University STEM Center,Asossa,Benishangul-Gumuz,Ethiopia,ET-W,Mr. Getachew Geleta,251.920.230207,getachew9267÷gmail.com,\"COMP, ELEX\",GFCT,2014\r\nSOMALILAND,,,,,,,,,,\r\nHiga Special Boarding School STEM Center,Durame,Southern,Ethiopia,ET-S,Mr. Yoseph Endris,251.911.855569,yosefendris3÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nGUINEA-CONAKRY,,,,,,,,,,\r\nTOGO,,,,,,,,,,\r\nUniversité Joseph Ki-Zerbo STEM Center,Ouagadougou,Centre,Burkina Faso,AF-O,Amb.   Sylvain Yameogo,226.702.163.560,yameogo3÷yahoo.fr,\"COMP, ELEX\",STEMpower,2024\r\nHarar Aboker Secondary School STEM Center,Harari,Harari,Ethiopia,ET-E,Mr. Daniel Birhanu,251.933.269987,danielbirane÷yahoo.com,\"COMP, ELEX\",GFCT,2019\r\nOromia State University STEM Center *,Batu,Oromia,Ethiopia,ET-S,,,,ELEX,STEMpower,2024\r\nMOZAMBIQUE,,,,,,,,,,\r\nYambio TVET & STEM Center,Yambio,Western Equatoria,South Sudan,SS,Justin Kirima,211.928.403421,yambiomvtc2019÷yahoo.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2020\r\nFoka STEM Training Center,Bishoftu,Oromia,Ethiopia,ET-C,Mr. Eyob Ayechew,251.912.066189,\"aycheweyob÷yahoo.com;\neyoba÷stempower.org\",\"COMP, ELEX, MECX, OPTX, 3DP, CHMX, SOLP\",GFCT,2010\r\nMayen Abun Secondary School STEM Center,Twic,Warrap,South Sudan,SS,TBD,TBD,TBD,\"COMP, ELEX, 3DP, HISC\",STEMpower,2023\r\nSENEGAL,,,,,,,,,,\r\nMettu University STEM Center,Mettu,Oromia,Ethiopia,ET-W,Mr. Eshetu Chilo,251.931.333014,eshetuchilo÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nDEMOCRATIC REPUBLIC OF THE CONGO,,,,,,,,,,\r\nLiqa Special School STEM Center,Wolaita,Southern,Ethiopia,ET-S,Mr. Desalegn Dawit,251.9200.412472,desboy46÷gmail.com,\"BIO, CHEM, PHY, ELEX\",GFCT,2018\r\nArsi University STEM Center,Asella,Oromia,Ethiopia,ET-S,Mr. Umer Derse,251.910.830236,umerdarse÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nOda Bultum University STEM Center,Assebe Teferi,Oromia,Ethiopia,ET-E,Dr. Alemayehu Beyene,251.933.775511,keyeronalemayehu2015÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nBeverly School of Kenya STEM Center,North Kinganop,Nyandarua,Kenya,AF-O,Alice Mudiri,254.717.586.463,alice÷beverlyschoolofkenya.com,\"COMP, ELEX\",GFCT,2013\r\nEhlanzeni TVET College STEM Center ,\"Mbombela\n\",Mpumalanga,South Africa ,AF-O,Mr. Thembinkosi Sibankulu,27.114.840.583,thembinkosis÷nemisa.co.za,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nBule Hora University STEM Center,Bule Hora,Oromia,Ethiopia,ET-S,Mr. Derara Senay,251.913.031705,derjan06÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nBENIN,,,,,,,,,,\r\nUGANDA,,,,,,,,,,\r\nEthiopian Academy of Sciences STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Mr. Mesfin Engdawork,251.936.659835,engdamesfin÷yahoo.com,\"COMP, ELEX, 3DP, SOLP\",GFCT,2019\r\nNAMIBIA,,,,,,,,,,\r\nESWATINI,,,,,,,,,,\r\nGABON,,,,,,,,,,\r\nZIMBABWE,,,,,,,,,,\r\nRWANDA,,,,,,,,,,\r\nGitwe Adventist College STEM Center ,Ruhango,Southern,Rwanda,AF-O,Gilbert Nshimiyimana,250.783.7110,collegeadventistegitwe÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nAbyei Secondary School STEM Center,Abyei,Abyei Admin Area,South Sudan,SS,Bol Deng Kuol, 211.928.790802,bdengaboot÷gmail.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2022\r\n\"L'université des Sciences, des Techniques et des Technologies de Bamako STEM Center\",Bamako,Bamako Capital District,Mali,AF-O,Amb. Fafre Camara,223.20.290.407,usttbinfo÷gmail.com ; fafrecam÷yahoo.fr,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nZambian National STEM Foundation STEM Center,Lusaka,Lusaka,Zambia,AF-O,Michelo K. Moonga,260.969.525046,mitch÷stemzambia.org,\"ELEX, ROBOT KITS\",STEMpower,2023\r\nTANZANIA,,,,,,,,,,\r\nNIGER,,,,,,,,,,\r\nGUINEA-BISSAU,,,,,,,,,,\r\nGambella University STEM Center,Gambella,Gambella,Ethiopia,ET-W,Dr. Ashenafi Assefa,251.910.830236,ashuashe÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nDebre Markos University STEM Center,Debre Markos,Amhara,Ethiopia,ET-N,Dr. Tafere Melaku,251.929.07770,mihretalemayehu÷gmail.com,\"COMP, ELEX, 3DP\",GFCT,2019\r\nMAURITANIA,,,,,, ,\"\n\",,,\r\nUniversité de San Pedro STEM Center ,San-Pédro,Bas -Sassandra,Côte d'Ivoire,AF-O,Mr. Meite Meke,225.707.906.579,meitekfr÷yahoo.fr,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nThe University of Comoros STEM Center *,Mavingouni,Moroni,Comoros,AF-O,Dr. Salim Badaoui,269.486.4749,salim.ahamada2016÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nDebark University STEM Center,Debark,Amhara,Ethiopia,ET-N,Prof. Tessema Zewdu,251.993.661384,tessemazewdu÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nZAMBIA,,,,,,,,,,\r\nDegehabur High School STEM Center,Degehabur,Ethio-Somali,Ethiopia,ET-E,Mr. Mohammed,251.915.744334,myroble÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nCAMEROON,,,,,,,,,,\r\nCOMOROS,,,,,,,,,,\r\nGondar University STEM Center,Gondar,Amhara,Ethiopia,ET-N,Mr. Girma Workie,251.918.729057,workiegirma÷gmail.com,\"COMP, ELEX, MECX, OPTX, 3DP, CHMX, SOLP\",GFCT,2013\r\nSamara University STEM Center,Samara,Afar,Ethiopia,ET-E,Dr. Bethlehem Dagnew ,251.928.864950,betelhem.dagnew÷yahoo.com,\"COMP, ELEX, 3DP, SOLP\",STEMpower,2020\r\nKuajok National Secondary School STEM Center,Kuajok,Warrap,South Sudan,SS,Madut Mayiik Tong,211.928.152.225,tongmayiik001÷gmail.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2022\r\nKibogora Polytechnic STEM Center,Nyamasheke,Western,Rwanda,AF-O,Dariya Mukamusoni,250.788.463.548,vice÷kp.ac.rw,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nBusitema University STEM Center,Busia-Busitema,Eastern ,Uganda,AF-O,Dr. Saphina Biira,256.772.523936,sbiira÷sci.busitema.ac.ug,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nJigjiga University STEM Center,\"Jigjiga,\",Ethio-Somali,Ethiopia,ET-E,Mr. Abdulahi Abdinur,251.972.252573,a_abdinurr÷yahoo.com,\"COMP, ELEX\",GFCT,2014\r\nBorana University STEM Center *,Yabelo,Oromia,Ethiopia,ET-S,,,,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nUniversity of Zambia STEM Center,Lusaka,Lusaka,Zambia,AF-O,Patricia Mwila Sakala,260.211.296019,interlink÷unza.zm,\"ELEX, ROBOT KITS\",STEMpower,2023\r\nAMC Abayudaya Farm STEM Center,Mbale,Eastern ,Uganda,AF-O,Allan Waluntu,256.788.339.674,abayudayamensclub÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nUniversity of Eswatini (UNESWA)-Mbabane Campus STEM Center ,Mbabane,Mbabane,Eswatini,AF-O,Wiseman N. Nyembe,268.25.170.393,wnyembe÷uniswa.sz,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nUniversity of Juba STEM Center,Juba,Central Equatoria,South Sudan,SS,Richard Ring Kuach,211.929.455.488,aduerngor÷gmail.com,\"COMP, ELEX, MECX, OPTX, 3DP, HISC\",STEMpower,2017\r\nUniversité Félix Houphouet-Boigny STEM Center ,Abidjan,Abidjan,Côte d'Ivoire,AF-O,Prof. Adou Kablan Jerome,225.707.079.191,,ELEX,STEMpower,2024\r\nMADAGASCAR,,,,,,,,,,\r\nLimkokwing University STEM Center,Maseru,Maseru,Lesotho,AF-O,Diana Moopisa,266.629.19532,diana.moopisa÷limkokwing.ac.is,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nDebre Berhan University STEM Center,Debere Birhan,Amhara,Ethiopia,ET-N,Dr. Said Mohammed,251.913.139855,seyalmuhe÷gmail.com; seidmuhamed÷dbu.edu.et,\"COMP, ELEX, 3DP\",STEMpower,2019\r\nUniversité D ’Antananarivo STEM Center ,Antananarivo,Analamanga,Madagascar,AF-O,Dr.  Ranaivoarisoa Jean Freddy,261.349.367.328,,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nSTEMpower FabLab,Addis Ababa,Federal,Ethiopia,ET-C,Mr. Biruk Demissie,251.943.854583,merkinehp÷stempower.org,\"CNC, 3DP, PCB\",GFCT,2020\r\nANGOLA,,,,,,,,,,\r\nCollege of Theology & Management STEM Center,Freetown,Freetown,Sierra Leone,AF-O,Rev. Selina Prattling,232.766.84366,reginaldspainepratt÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nAmbo University STEM Center,Ambo,Oromia,Ethiopia,ET-W,Dr. Wubshet Ibrahim,251.911.892494,wubshetib÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nLIBERIA,,,,,,,,,,\r\nGode Polytechnic College STEM Center,Gode,Ethio-Somali,Ethiopia,ET-E,Mr. Mohamed Abdi,251.915.747716,nigeriagodey12÷gmail.com,\"COMP, ELEX\",GFCT,2019\r\nGrinti Science & Technology Academy STEM Center,Wau,Western Bahr el Ghazal,South Sudan,SS,Awar Makom,211.921.706662,makom.ja÷gmail.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2021\r\nWalter Sisulu University - Potsdam Campus,East London,Eastern Cape,South Africa ,AF-O,Dr. Jose Lukose,27.609.974978,jlukose÷wsu.ac.za,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nUniversity of Limpopo STEM Center ,Mankweng,Limpopo,South Africa ,AF-O,Mr. Khomotso Maila,27.152.683.517,,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nBotswana International University of Science and Technology,Palapye,Central,Botswana,AF-O,Dr. Boyce Sigweni,267.493.1813,sigwenib÷biust.ac.bw,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nBURKINA FASO,,,,,,,,,,\r\nEvery Nation Polytechnic STEM Center,Bo,Southern Province,Sierra Leone,AF-O,Oscar Oladipo Hudges,232.775.91751,registrar÷ebkustsl.edu.sl,\"COMP, ELEX, 3DP\",STEMpower,2022\r\n\"Machakos University STEM Center\n\",Machakos,Machakos,Kenya,AF-O,Prof. Peter Mwita,254.721.429770,dvc-ril÷mksu.ac.ke,\"ELEX, ROBOT KITS\",STEMpower,2023\r\nUniversité d'Abomey-Calavi STEM Center,Dangbo,South-east,Benin,AF-O,Prof. Carlos Ogouyandjou,229.970.98118,ogouyandjou÷imsp-uac.org,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nNehemiah Autistic STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Ms. Rahel Abayneh,251.930.012652,nehemiah.center÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nUniversité de Goma- Campus de Mugunga STEM center ,Goma,North-Kivu,Congo DRC,AF-O,Dr. Jackson Sebigunda,243.998.967.450,jacksons÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nBURUNDI,,,,,,,,,,\r\nETHIOPIA,,,,,,,,,,\r\nHaromaya University STEM Center,Haromaya,Oromia,Ethiopia,ET-E,Dr. Asfaw Kebede,251.912.441024,asfaw649÷gmail.com,\"COMP, ELEX\",GFCT,2019\r\nJohn Garang University of Science & Technology STEM Center,Bor,Jonglei State,South Sudan,SS,Prof. Abraham Matoc,211.924.833.133,\"\nabraham.matoc÷gmail.com \",\"COMP, ELEX, 3DP, HISC\",STEMpower,2020\r\nWollo University STEM Center,Dessie,Amhara,Ethiopia,ET-N,Asst. Prof. Dagnachew Mullu,251.920.359567,dagnache.mullu÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nMALAWI,,,,,,,,,,\r\nPolytechnic University of Gitega STEM Center,Gitega,Gitega,Burundi,AF-O,Naclet Nzohabonayo ,257.711.66242,nzohabon÷yahoo.fr,\"COMP, ELEX\",GFCT,2013\r\nCôTE D'IVOIRE,,,,,,,,,,\r\nKebridahar University STEM Center,Kebridahar,Ethio-Somali,Ethiopia,ET-E,Abdulfeta Ahmed,251.911.268822,raabbiyey÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nTriumphant College STEM Center,Windhoek,Khomas,Namibia,AF-O,Ms. Elizabeth Veiko,264.813.174880,,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nMiNT Burayu Talent Academy STEM Center,Burayu,Oromia,Ethiopia,ET-C,Dr. Hirpassa Chala,251.937.852841,hirpassachala÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nMadda Walabu University STEM Center,Bale Robe,Oromia,Ethiopia,ET-E,Mr. Siraj Abduro,251.910.047263,sirajab25÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nSalale University STEM Center,Salale,Oromia,Ethiopia,ET-W,Dr. Eshetu Wendimu,251.930.364633,eshemic÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nInstitut International D'Afrique Centrale - Moundou,Moundou,Logone,Chad,AF-O,Atha Christel Davy,'+237-690-628-432,athachristel@yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nUniversité de Kara STEM Center ,Kara,Kara,Togo,AF-O,Prof. Pali Tchaa Aime,228.900.60576,paliest÷gmail.com,\"ELEX, ROBOT KITS\",STEMpower,2025\r\nUniversidade Aberta ISCED STEM Center,Beira,Sofala Province,Mozambique,AF-O,Wisdom Machacha,258.823.055837,wmachacha÷isced.ac.mz,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nKyambogo University STEM Center,Kampala,Central,Uganda,AF-O,Dr. Fredrick Kanobe ,256.782.592.120,fkanobe÷kyu.ac.ug,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nTorit TVET & STEM Center,Torit,Eastern Equatoria,South Sudan,SS,Okello Simon Peter,211.924.692.522,spcvi2015÷gmail.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2020\r\nKing Hintsa TVET College - Msobomvu Campus STEM Center ,Butterworth,Eastern Cape,South Africa ,AF-O,Mr. MW Ndinisa,27.827.005.887,,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nUniversity of Rwanda - College of Science & Technology STEM Center,Kigali,Central,Rwanda,AF-O,Dr. James Wigema,250.788.444801,jamesrwigema1÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nNyabiheke Refugee Camp STEM Center,Gatsibo,Eastern,Rwanda,AF-O,Jacques Rumanyika,250.788.318.730,jacques-prevert÷wearealight.org,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nDeborah Foundation STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Mr. Seifu,251.947.940687,contact÷deborafoundation.org,,,\r\nKotebe Education University STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Dr. Tewodros Mulugeta,251.911.344747,mulugetatewodros÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nMekdela Amba University STEM Center,Tulu Awolia,Amhara,Ethiopia,ET-N,Mr. Dawit Dibekulu,251.918.586267,dawitdibekulu7÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nNational Teachers Training Institute - Rambur STEM Center,Juba,Central Equatoria,South Sudan,SS,Angelo Gume,211.922.189.533,,\"COMP, ELEX, 3DP, HISC\",STEMpower,2021\r\nKallamino Special High School STEM Center,Mekelle,Tigray,Ethiopia,ET-N,Mr. Daniel Tesfaye,251.920.864574,getwaydan÷gmail.com,\"COMP, ELEX, MECX, OPTX, 3DP\",GFCT,2011\r\nRumbek University Science & Technology STEM Center,Rumbek,Lakes State,South Sudan,SS,James Utong,211.926.222.656,ujama67÷gmail.com / alsadid352÷gmail.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2020\r\nArba Minch University STEM Center,Arbaminch,Southern,Ethiopia,ET-S,Dr. Binyam Wondale,251.911.383337,biniamw2005÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nMALI,,,,,,,,,,\r\nWolaita Sodo University STEM Center,Sodo,Southern,Ethiopia,ET-S,Mr. Bezabih Kelta,251.937.311775,bezaariya÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nTechnical & Vocational Training Institute (TVTI) STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Mrs. Fanosie Kebede,,fanosiek÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2024\r\n Hawassa University STEM Center,Hawassa,Sidama ,Ethiopia,ST-S,Dr. Misrak Getahun,251.912.189020,misgebe÷yahoo.com,\"COMP, BIO, ELEX, MECX, OPTX, 3DP, CHMX\",GFCT,2014\r\nGHANA,,,,,,,,,,\r\nLuonyaker STEM Center ,Gogrial East,Warrap,South Sudan,SS,Joseph Majok,211.920.633.324,TBD,\"COMP, ELEX, 3DP, HISC\",STEMpower,2023\r\nSOUTH AFRICA,,,,,,,,,,\r\nMizan Tepi University STEM Center,Mizan Tepi,Southern,Ethiopia,ET-S,Mr. Kirubel G/Hiwot,251.930.504902,ghiwotkirubel15÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nUniversité catholique de Bukavu (UCB) STEM Center *,Bukavu,South-Kivu,Congo DRC,AF-O,Mr. Ghislain Bisimwa Balaluka,243.854.893440,recteurucb÷ucbukavu.ac.cd,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nUniversité Shalom de Bunia (USB),Bunia,Ituri,Congo DRC,AF-O,,,,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nAgahozo-Shalom Youth Village STEM Center,Rubona,Eastern,Rwanda,AF-O,Jean-Claude Nkulikiyimfura,250.788.300084 ,jc÷asyv.org ,\"COMP, ELEX, 3DP\",GFCT,2013\r\nBuol Yar Polytechnic College STEM Center,Wanyjok,Northern Bahr el Ghazal,South Sudan,SS,TBD,TBD,TBD,\"COMP, ELEX, 3DP, HISC\",STEMpower,2025\r\nPanrieng STEM Center ,Parieng,Ruweng Admin Area,South Sudan,SS,TBD,TBD,TBD,\"COMP, ELEX, 3DP, HISC\",STEMpower,2023\r\nWerabe University STEM Center,Werabe,Southern,Ethiopia,ET-S,Dr. Tofik Jemal,251.917.930295,towfikjemal÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nMaridi Girls Boarding School of Science STEM Center,Maridi,Western Equatoria,South Sudan,SS,Modi Edward James,211.924.483.826,modiedward09÷gmail.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2022\r\nKepler University STEM Center ,Kigali,KIgali,Rwanda,AF-O,Dr. Baylie Damtie,250.788.310690,baylie÷kepler.org,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nSTEMpower STEM Box ,Bishoftu,Oromia,Ethiopia,ET-C,Mr. Eyob Ayechew ,251.912.066189,eyobaychew29÷gmail.com,,STEMpower,2020\r\nHargessa University STEM Center,Hargessa,Somaliland,Somalia,AF-O,Mr. Warsame M. Ahmed,252.634.246007,wrsmmhd÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nDebre Tabor University STEM Center,Debre Tabor,Amhara,Ethiopia,ET-N,Dr. Menberu Teshome,251.930.295752,menberuteshome÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nLESOTHO,,,,,,,,,,\r\nAkar Secondary School STEM Center ,Yirol,Lakes State,South Sudan,SS,TBD,TBD,TBD,\"COMP, ELEX, 3DP, HISC\",STEMpower,2023\r\nAddis Ababa Science & Technology University STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Bereket Walle,251.910.486859,bereket.walle÷aastu.edu.et,\"COMP, ELEX, 3DP, CHMX\",GFCT,2013\r\nInstitut National des Sciences de Gestion (INSG) STEM Center,Libreville,Estuaire Province,Gabon,AF-O,,,,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nAASTU Science Museum,Addis Ababa,Federal,Ethiopia,ET-C,Ms. Wede; Mr. Alemseged Moreda,251.988.109843; 251.923.465191,wudiye21÷gmail.com; shalom.almor÷gmail.com,\"COMP, ELEX, MECX, OPTX, 3DP\",GFCT,2014\r\nCovenant Hope College STEM Center,Kenema,Eastern Province,Sierra Leone,AF-O,Macmond Micheal Kallon,232.763.78990,covenantcollege÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nAdigrat University STEM Center ~,Adigrat,Tigray,Ethiopia,ET-N,Mr. Gidey G/Hiwot,251.910.107289,gdy5zu÷gmail,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nInstituto Politécnico de Tecnologias e Ciências STEM Center ,Talatona,Luanda,Angola,AF-O,Dr. Isabel Garcia,244.226.690.417,isabel.k.garcia÷isptec.co.ao,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nLamine Gueye High School STEM Center,Dakar,Dakar,Senegal,AF-O,Aboubacry Sadikh NIANG,221.338.221332,iadakar÷education.sn,\"ELEX, ROBOT KITS\",STEMpower,2023\r\nEast African Christian College STEM Center,Kigali,Kigali,Rwanda,AF-O,Dr. Papias Musafiri,250.788.304.031,dpa÷eacc.ac.rw,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nYWCA Training Center for Girls’ Education STEM Center,Monrovia ,Monrovia,Liberia,AF-O,Mr. Pekay Nyepon ,231.770.331.884,audreykpoto÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nAzania Secondary School STEM Center,Dar Es Salaam,Central,Tanzania,AF-O,Mr. Erasto Gwimile,\"255.719.999830 \n252.634.246007\",erastogwimile÷yahoo.com,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nUniversity of Bahr El Ghazal STEM Center,Wau,Western Bahr el Ghazal,South Sudan,SS,Emmanuel Emilio,211.928.356.245,batreck1988÷gmail.com/ emmanuel.emilio÷ubg.edu.ss,\"COMP, ELEX, 3DP, HISC\",STEMpower,2022\r\nINES Ruhengeri STEM Center,Musanze,Northern,Rwanda,AF-O,Fabien Hagenimana,250.783.312869,vc÷ines.ac.rw,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nDilla University STEM Center,Dilla,Southern,Ethiopia,ET-S,Mr. Tekalign Tadesse,251.912.021793,tekalign.chem÷gmail.com,\"COMP, ELEX\",GFCT,2019\r\nAba Samuel Prison High School STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Cmdr. Sisay H/Yesus,251.920.593470,sisayyesusoda÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nWolkite Univesity STEM Center,Wolkite,Southern,Ethiopia,ET-S,Dr. Habte Dulla,251.954.935706,habtix07÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nKENYA,,,,,,,,,,\r\nBOTSWANA,,,,,,,,,,\r\nHarar High School STEM Center,Harar,Harari,Ethiopia,ET-E,Mr. Abiy Abebe,251.913.388483,abiyabebeerdaw÷gmail.com,\"COMP, ELEX, 3DP\",GFCT,2021\r\nRwanda Institute for Conservation Agriculture STEM Center ,Bugesera,Eastern,Rwanda,AF-O,Jean Claude Kayisinga,250.788.303.665,jckayisinga÷rica.rw,\"COMP, ELEX, 3DP\",STEMpower,2023\r\nWomen's University in Africa STEM Center,Greendale,South Park,Zimbabwe,AF-O,Nephas Mufutumari,263.772.135039,nmufutumari÷wua.ac.zw,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nAbdou Moumouni University STEM Center,Niamey,Tillabéri,Niger,AF-O,Prof. Saley Bisso,227.91.109.682,bisso.saley@uam.edu.ne,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nJimma University STEM Center,Jimma,Oromia,Ethiopia,ET-W,Dr. Gudina Terefe,251.911.703978,guditerefe÷gmail.com,\"COMP, ELEX, 3DP, CHMX\",STEMpower,2020\r\nSIERRA LEONE,,,,,,,,,,\r\nUniversidade Amílcar Cabral STEM Center,Bissau,Guinea-Bissau,Guinea-Bissau,AF-O,Victor Crato Vaz Martins ,'+245.956.120.522,victorcratovazmartins@gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2025\r\nAdama Science & Technology University STEM Center,Adama,Oromia,Ethiopia,ET-E,Dr. Worku Jifara,251.973.731040,worku.jifara÷gmail.com,\"COMP, ELEX\",GFCT,2016\r\nAsaita High School STEM Center,Asaita,Afar,Ethiopia,ET-E,Mr. Mohamed Ali ,251.921.326139,alimgt2012÷yahoo.com,\"COMP, ELEX\",GFCT,2015\r\nWoldia University STEM Center ~,Woldia,Amhara,Ethiopia,ET-N,Mr. Melaku Adal,251.912.964549,adalmelaku÷gmail.com,\"COMP, ELEX\",GFCT,2019\r\nDire Dawa University STEM Center,Dire Dawa,Federal,Ethiopia,ET-E,Dr. Solomon Zerihun,251.928.684496,solomonwerta÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nKinji Secondary School STEM Center ,Yei,Central Equatoria,South Sudan,SS,Sebit Alfred,211.925.542.030,TBD,\"COMP, ELEX, 3DP, HISC\",STEMpower,2023\r\nRaya University STEM Center,Raya,Tigray,Ethiopia,ET-N,Dr. Nigus Mesele ,251.901.925095,meselenigus÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nUniversity of Nouakchott STEM Center,Nouakchott,Southwest,Mauritania,AF-O,Dr. Aissata Sy Professeure Vacataire,'+22249635162,\"aissata.a.b.sy@gmail.com\n aissata.a.b.sy@aimssenegal.org\",\"COMP, ELEX, 3DP\",STEMpower,2025\r\nBahati Gelfand Education STEM Center,Ishiara,Embu,Kenya,AF-O,David Njeru,,davidnjeru55÷gmail.com,ELEX,GFCT,2013\r\nUniversité Protestante au Congo (UPC),Lingwala,Kinshasa,Congo DR,AF-O,,,,\"COMP, ELEX, 3DP\",STEMpower,2025\r\n\"University of Tourism, Technology and Business Studies- Rubavu Campus STEM Center \",Rubavu,Western,Rwanda,AF-O,Gilbert Uwitonze,250.788.778.217,giluwitonzeg÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nUniversity of Ghana: AAMUSTED STEM Center ,\"Kumasi \nAshanti\",Ashanti,Ghana,AF-O,Prof. Sarfo,233.501.322565,vc÷aamusted.edu.gh,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nCHAD,,,,,,,,,,\r\nAddis Ababa Institute of Technology (AAiT) STEM Center,Addis Ababa,Federal,Ethiopia,ET-C,Dr. Bisrat Derebssa,251.929.139442,bisrtt÷gmail.com,\"COMP, ELEX, 3DP, CHMX\",STEMpower,2019\r\nMasinde Muliro University of Science and Technology STEM Center,Kakamega,Kakamega,Kenya,AF-O,Maxwell Mageto,254.742.394436,mmageto÷mmust.ac.ke,\"COMP, ELEX, 3DP\",STEMpower,2022\r\n\"SOS Villages in Lilongwe, Malawi STEM Center *\",Mzuzu,Northern Region,Malawi,AF-O,James Gondwe,265.999.940260,\"jamesgondwe÷cydmalawi.org;\ninfo÷cydmalawi.org\",\"ELEX, ROBOT KITS\",STEMpower,2023\r\nJinka University STEM Center,Jinka,Southern,Ethiopia,ET-S,Ms. Eleni Tarekegn,251.918.008157,eluasmare÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nCAPE VERDE,,,,,,,,,,\r\nMaper National Science Teacher Training Institute STEM Center,Aweil,Northern Bahr el Ghazal,South Sudan,SS,Lino Bol Thiep,211.922.698054,linothiep22÷gmail.com,\"COMP, ELEX, 3DP, HISC\",STEMpower,2021\r\nSOUTH SUDAN ,,,,,,,,,,\r\nMekelle University Science Museum,Mekelle,Tigray,Ethiopia,ET-N,Dr. Gebregiorgis,251.912.688548,getwaydan÷gmail.com,,STEMpower,2020\r\nDembi Dolo University STEM Center,Dembi Dolo,Oromia,Ethiopia,ET-W,Pro. Yoseph Shiferaw,251.952.795114,Shiferaw.yoseph71÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nWollega University STEM Center,Nekemet,Oromia,Ethiopia,ET-W,Mr. Amayou Belissa ,251.922.224949,bamayou÷gmail.com,\"COMP, ELEX\",GFCT,2015\r\nInjibara University STEM Center,Injibara,Amhara,Ethiopia,ET-N,Dr. Kindie Birhan ,251.918.779183,kindaybir÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nL'Université Gamal Abdel Nasser de Conakry STEM Center ,Dixinn,Conakry,Guinea-Conakry,AF-O,Amb. El. Hadji Nounke Kaba,224.666.583.751,idiabysedes÷hotmail.com ; nounkekaba2008÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nEmbu University STEM Center,Embu,Embu,Kenya,AF-O,Prof. Kiplagat Kotut,254.722.288.471,kotut.kiplagat÷embuni.ac.ke,\"COMP, ELEX, 3DP\",STEMpower,2024\r\nInstitut International Polytechnique et Commerce 2i STEM Center,Brazzaville,Brazzaville,Congo-Brazzaville,AF-O,Moebo Boungou Micael Barley,242.066.244.230,micaelbarleymoeboboungou÷gmail.com,\"COMP, ELEX\",STEMpower,2024\r\nUniversity of Dschang STEM Center ,Dschang,Ouest,Cameroon,AF-O,Prof. Nkenlifack Marcellin,237.676.565328,marcellin.nkenlifack÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nCONGO-BRAZZAVILLE,,,,,,,,,,\r\nMobile STEM Lab ,Bishoftu,Oromia ,Ethiopia,ET-C,Mr. Eyob Ayechew,251.912.066189,eyoba÷stempower.org,\"LAPTOPS, 3DP\",STEMpower,2020\r\nBong County Technical College STEM Center,Gbarnga,Bong,Liberia,AF-O,,,,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nChinhoyi University of Technology STEM Center,,,Zimbabwe,AF-O,Mr. Shakemore Chinofunga,263.672.122203,shakechinoz÷gmail.com,\"COMP, ELEX, 3DP\",STEMpower,2022\r\nUniversity of Rwanda College of Education - Rukara Campus,Kayonza,Eastern,Rwanda,AF-O,Prof. Jean Uwamahoro,250.784.432839,j.uwamahoro÷ur.ac.rw,\"COMP, ELEX, 3DP\",STEMpower,2021\r\nWachemo University STEM Center,Hadiya,Southern,Ethiopia,ET-S,,,,\"COMP, ELEX, 3DP\",STEMpower,2020\r\nUniversité du Burundi (Mutanga Campus) STEM Center,Bujumbura,Bujumbura,Burundi,AF-O,Dr. Sylvie Hatungimana ,257.756.06607, sylvie.hatungimana÷ub.edu.bi,\"COMP, ELEX, 3DP\",STEMpower,2023\r\nBahirdar University STEM Center,Bahidar,Amhara,Ethiopia,ET-N,Dr. Tesfa Tegegne,251.918.762686,tesfat÷gmail.com,\"COMP, ELEX, MECX, OPTX, 3DP, AERO, HISC, SOLP\",GFCT,2014\r\n"};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
 
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM Centers Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map { height: 600px; width: 100%; }
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        .popup-content { max-width: 300px; }
+        .popup-content p { margin: 5px 0; }
+        .popup-content strong { color: #333; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+    <script src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js"></script>
+    <script>
+        // Initializing the map, centered on Africa
+        const map = L.map('map').setView([1.0, 21.0], 3.5);
+
+        // Adding Stamen Terrain tile layer
+        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg', {
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+            subdomains: 'abcd',
+            minZoom: 0,
+            maxZoom: 18
+        }).addTo(map);
+
+        // Defining approximate coordinates for STEM Centers
+        const centerCoordinates = {
+            "Central University of Technology STEM Center": [-29.1211, 26.2136], // Bloemfontein, South Africa
+            "Kapoeta Teachers Training Institute STEM Center": [4.7718, 33.5912], // Kapoeta, South Sudan
+            "Bonga University STEM Center": [7.2701, 36.2468], // Bonga, Ethiopia
+            "Kotebe Science Shared Campus STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Universidade de Cabo Verde": [14.9177, -23.5090], // Praia, Cape Verde
+            "Asosa University STEM Center": [10.0670, 34.5346], // Asossa, Ethiopia
+            "Higa Special Boarding School STEM Center": [6.6181, 37.2813], // Durame, Ethiopia
+            "Université Joseph Ki-Zerbo STEM Center": [12.3714, -1.5197], // Ouagadougou, Burkina Faso
+            "Harar Aboker Secondary School STEM Center": [9.3126, 42.1227], // Harari, Ethiopia
+            "Yambio TVET & STEM Center": [4.5721, 28.3955], // Yambio, South Sudan
+            "Foka STEM Training Center": [8.7661, 38.4432], // Bishoftu, Ethiopia
+            "Mayen Abun Secondary School STEM Center": [7.2589, 31.6777], // Twic, South Sudan
+            "Mettu University STEM Center": [8.3378, 35.5819], // Mettu, Ethiopia
+            "Liqa Special School STEM Center": [6.4924, 37.5556], // Wolaita, Ethiopia
+            "Arsi University STEM Center": [7.6116, 39.1327], // Asella, Ethiopia
+            "Oda Bultum University STEM Center": [9.2947, 41.6977], // Assebe Teferi, Ethiopia
+            "Beverly School of Kenya STEM Center": [-0.6860, 36.4350], // Nyandarua, Kenya
+            "Ehlanzeni TVET College STEM Center": [-25.4753, 30.9694], // Mbombela, South Africa
+            "Bule Hora University STEM Center": [5.8950, 38.2703], // Bule Hora, Ethiopia
+            "Ethiopian Academy of Sciences STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Gitwe Adventist College STEM Center": [-2.0744, 29.7377], // Ruhango, Rwanda
+            "Abyei Secondary School STEM Center": [9.5952, 28.4210], // Abyei, South Sudan
+            "L'université des Sciences, des Techniques et des Technologies de Bamako STEM Center": [12.6392, -8.0029], // Bamako, Mali
+            "Zambian National STEM Foundation STEM Center": [-15.4167, 28.2833], // Lusaka, Zambia
+            "Gambella University STEM Center": [8.2472, 34.5913], // Gambella, Ethiopia
+            "Debre Markos University STEM Center": [10.3296, 37.7344], // Debre Markos, Ethiopia
+            "Université de San Pedro STEM Center": [4.7485, -6.6363], // San-Pédro, Côte d'Ivoire
+            "The University of Comoros STEM Center": [-11.7026, 43.2551], // Mavingouni, Comoros
+            "Debark University STEM Center": [13.1561, 37.8982], // Debark, Ethiopia
+            "Degehabur High School STEM Center": [8.2222, 43.5588], // Degehabur, Ethiopia
+            "Gondar University STEM Center": [12.5898, 37.4460], // Gondar, Ethiopia
+            "Samara University STEM Center": [11.7934, 41.0136], // Samara, Ethiopia
+            "Kuajok National Secondary School STEM Center": [8.3028, 27.9835], // Kuajok, South Sudan
+            "Kibogora Polytechnic STEM Center": [-2.4833, 28.9083], // Nyamasheke, Rwanda
+            "Busitema University STEM Center": [0.5718, 34.0211], // Busia-Busitema, Uganda
+            "Jigjiga University STEM Center": [9.3568, 42.7955], // Jigjiga, Ethiopia
+            "University of Zambia STEM Center": [-15.4167, 28.2833], // Lusaka, Zambia
+            "AMC Abayudaya Farm STEM Center": [1.1322, 34.1721], // Mbale, Uganda
+            "University of Eswatini (UNESWA)-Mbabane Campus STEM Center": [-26.3241, 31.1417], // Mbabane, Eswatini
+            "University of Juba STEM Center": [4.8594, 31.5713], // Juba, South Sudan
+            "Université Félix Houphouet-Boigny STEM Center": [5.3496, -4.0176], // Abidjan, Côte d'Ivoire
+            "Limkokwing University STEM Center": [-29.3167, 27.4833], // Maseru, Lesotho
+            "Debre Berhan University STEM Center": [9.6568, 39.5214], // Debere Birhan, Ethiopia
+            "Université D ’Antananarivo STEM Center": [-18.8792, 47.5079], // Antananarivo, Madagascar
+            "STEMpower FabLab": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "College of Theology & Management STEM Center": [8.4910, -13.2356], // Freetown, Sierra Leone
+            "Ambo University STEM Center": [8.9869, 37.8550], // Ambo, Ethiopia
+            "Gode Polytechnic College STEM Center": [5.9520, 43.5577], // Gode, Ethiopia
+            "Grinti Science & Technology Academy STEM Center": [7.1507, 27.9903], // Wau, South Sudan
+            "Walter Sisulu University - Potsdam Campus": [-33.8950, 25.6060], // East London, South Africa
+            "University of Limpopo STEM Center": [-23.8860, 29.7377], // Mankweng, South Africa
+            "Botswana International University of Science and Technology": [-24.6052, 25.9285], // Palapye, Botswana
+            "Every Nation Polytechnic STEM Center": [7.4180, -11.7400], // Bo, Sierra Leone
+            "Machakos University STEM Center": [-1.5186, 37.2634], // Machakos, Kenya
+            "Université d'Abomey-Calavi STEM Center": [6.4503, 2.3468], // Dangbo, Benin
+            "Nehemiah Autistic STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Université de Goma- Campus de Mugunga STEM center": [-1.6788, 29.2228], // Goma, Congo DRC
+            "Haromaya University STEM Center": [9.4184, 42.1224], // Haromaya, Ethiopia
+            "John Garang University of Science & Technology STEM Center": [6.2130, 31.5603], // Bor, South Sudan
+            "Wollo University STEM Center": [11.1270, 39.6363], // Dessie, Ethiopia
+            "Polytechnic University of Gitega STEM Center": [-3.4271, 29.9246], // Gitega, Burundi
+            "Kebridahar University STEM Center": [6.7402, 44.2700], // Kebridahar, Ethiopia
+            "Triumphant College STEM Center": [-22.5461, 17.0953], // Windhoek, Namibia
+            "MiNT Burayu Talent Academy STEM Center": [9.0365, 38.6649], // Burayu, Ethiopia
+            "Madda Walabu University STEM Center": [7.0931, 39.8420], // Bale Robe, Ethiopia
+            "Salale University STEM Center": [9.3051, 38.3913], // Salale, Ethiopia
+            "Institut International D'Afrique Centrale - Moundou": [8.5667, 16.0833], // Moundou, Chad
+            "Université de Kara STEM Center": [9.5489, 1.1933], // Kara, Togo
+            "Universidade Aberta ISCED STEM Center": [-19.8436, 34.8389], // Beira, Mozambique
+            "Kyambogo University STEM Center": [0.3476, 32.6307], // Kampala, Uganda
+            "Torit TVET & STEM Center": [4.4116, 32.5748], // Torit, South Sudan
+            "King Hintsa TVET College - Msobomvu Campus STEM Center": [-32.7732, 27.4295], // Butterworth, South Africa
+            "University of Rwanda - College of Science & Technology STEM Center": [-1.9581, 30.0644], // Kigali, Rwanda
+            "Nyabiheke Refugee Camp STEM Center": [-1.6683, 30.3305], // Gatsibo, Rwanda
+            "Kotebe Education University STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Mekdela Amba University STEM Center": [11.4049, 39.2060], // Tulu Awolia, Ethiopia
+            "National Teachers Training Institute - Rambur STEM Center": [4.8594, 31.5713], // Juba, South Sudan
+            "Kallamino Special High School STEM Center": [13.6603, 39.4554], // Mekelle, Ethiopia
+            "Rumbek University Science & Technology STEM Center": [6.8065, 29.6780], // Rumbek, South Sudan
+            "Arba Minch University STEM Center": [6.0331, 37.5592], // Arbaminch, Ethiopia
+            "Wolaita Sodo University STEM Center": [6.8528, 37.7608], // Sodo, Ethiopia
+            "Technical & Vocational Training Institute (TVTI) STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Hawassa University STEM Center": [7.0480, 38.4957], // Hawassa, Ethiopia
+            "Luonyaker STEM Center": [8.1828, 27.6248], // Gogrial East, South Sudan
+            "Mizan Tepi University STEM Center": [6.9992, 35.5783], // Mizan Tepi, Ethiopia
+            "Université catholique de Bukavu (UCB) STEM Center": [-2.5123, 28.8480], // Bukavu, Congo DRC
+            "Université Shalom de Bunia (USB)": [1.5594, 30.2522], // Bunia, Congo DRC
+            "Agahozo-Shalom Youth Village STEM Center": [-1.9433, 30.3173], // Rubona, Rwanda
+            "Buol Yar Polytechnic College STEM Center": [8.6453, 25.6835], // Wanyjok, South Sudan
+            "Panrieng STEM Center": [8.6312, 29.9944], // Parieng, South Sudan
+            "Werabe University STEM Center": [7.1940, 38.2719], // Werabe, Ethiopia
+            "Maridi Girls Boarding School of Science STEM Center": [4.9086, 29.4698], // Maridi, South Sudan
+            "Kepler University STEM Center": [-1.9581, 30.0644], // Kigali, Rwanda
+            "STEMpower STEM Box": [8.7661, 38.4432], // Bishoftu, Ethiopia
+            "Hargessa University STEM Center": [9.5638, 44.0650], // Hargessa, Somalia
+            "Debre Tabor University STEM Center": [11.8567, 38.0155], // Debre Tabor, Ethiopia
+            "Akar Secondary School STEM Center": [6.9879, 29.6670], // Yirol, South Sudan
+            "Addis Ababa Science & Technology University STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Institut National des Sciences de Gestion (INSG) STEM Center": [0.3901, 9.4496], // Libreville, Gabon
+            "AASTU Science Museum": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Covenant Hope College STEM Center": [7.7119, -11.1763], // Kenema, Sierra Leone
+            "Adigrat University STEM Center": [14.2770, 39.4622], // Adigrat, Ethiopia
+            "Instituto Politécnico de Tecnologias e Ciências STEM Center": [-8.9186, 13.2551], // Talatona, Angola
+            "Lamine Gueye High School STEM Center": [14.7167, -17.4678], // Dakar, Senegal
+            "East African Christian College STEM Center": [-1.9581, 30.0644], // Kigali, Rwanda
+            "YWCA Training Center for Girls’ Education STEM Center": [6.3164, -10.8050], // Monrovia, Liberia
+            "Azania Secondary School STEM Center": [-6.7924, 39.2083], // Dar Es Salaam, Tanzania
+            "University of Bahr El Ghazal STEM Center": [7.1507, 27.9903], // Wau, South Sudan
+            "INES Ruhengeri STEM Center": [-1.5045, 29.6350], // Musanze, Rwanda
+            "Dilla University STEM Center": [6.4103, 38.3164], // Dilla, Ethiopia
+            "Aba Samuel Prison High School STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Wolkite Univesity STEM Center": [8.2877, 37.7840], // Wolkite, Ethiopia
+            "Harar High School STEM Center": [9.3126, 42.1227], // Harar, Ethiopia
+            "Rwanda Institute for Conservation Agriculture STEM Center": [-2.0135, 30.1435], // Bugesera, Rwanda
+            "Women's University in Africa STEM Center": [-17.7823, 31.0530], // Greendale, Zimbabwe
+            "Abdou Moumouni University STEM Center": [13.5116, 2.1053], // Niamey, Niger
+            "Jimma University STEM Center": [7.6738, 36.8358], // Jimma, Ethiopia
+            "Universidade Amílcar Cabral STEM Center": [11.8673, -15.5984], // Bissau, Guinea-Bissau
+            "Adama Science & Technology University STEM Center": [8.5541, 39.2689], // Adama, Ethiopia
+            "Asaita High School STEM Center": [11.5683, 41.4393], // Asaita, Ethiopia
+            "Woldia University STEM Center": [11.8301, 39.5922], // Woldia, Ethiopia
+            "Dire Dawa University STEM Center": [9.5937, 41.8661], // Dire Dawa, Ethiopia
+            "Kinji Secondary School STEM Center": [4.1394, 31.6605], // Yei, South Sudan
+            "Raya University STEM Center": [12.9592, 39.6768], // Raya, Ethiopia
+            "University of Nouakchott STEM Center": [18.0735, -15.9582], // Nouakchott, Mauritania
+            "Bahati Gelfand Education STEM Center": [-0.6680, 37.1337], // Ishiara, Kenya
+            "Université Protestante au Congo (UPC)": [-4.3034, 15.3126], // Lingwala, Congo DR
+            "University of Tourism, Technology and Business Studies- Rubavu Campus STEM Center": [-1.6833, 29.2623], // Rubavu, Rwanda
+            "University of Ghana: AAMUSTED STEM Center": [6.6745, -1.5716], // Kumasi, Ghana
+            "Addis Ababa Institute of Technology (AAiT) STEM Center": [9.0334, 38.7660], // Addis Ababa, Ethiopia
+            "Masinde Muliro University of Science and Technology STEM Center": [0.2827, 34.7519], // Kakamega, Kenya
+            "SOS Villages in Lilongwe, Malawi STEM Center": [-11.9668, 33.7741], // Mzuzu, Malawi
+            "Jinka University STEM Center": [5.7833, 36.5667], // Jinka, Ethiopia
+            "Maper National Science Teacher Training Institute STEM Center": [8.6453, 25.6835], // Aweil, South Sudan
+            "Mekelle University Science Museum": [13.6603, 39.4554], // Mekelle, Ethiopia
+            "Dembi Dolo University STEM Center": [8.5336, 34.8000], // Dembi Dolo, Ethiopia
+            "Wollega University STEM Center": [9.0517, 36.1918], // Nekemet, Ethiopia
+            "Injibara University STEM Center": [10.9562, 36.9189], // Injibara, Ethiopia
+            "L'Université Gamal Abdel Nasser de Conakry STEM Center": [9.6412, -13.5783], // Conakry, Guinea-Conakry
+            "Embu University STEM Center": [-0.5388, 37.4514], // Embu, Kenya
+            "Institut International Polytechnique et Commerce 2i STEM Center": [-4.3250, 15.2832], // Brazzaville, Congo-Brazzaville
+            "University of Dschang STEM Center": [5.4440, 10.0598], // Dschang, Cameroon
+            "Mobile STEM Lab": [8.7661, 38.4432], // Bishoftu, Ethiopia
+            "Bong County Technical College STEM Center": [7.0039, -10.2760], // Gbarnga, Liberia
+            "Chinhoyi University of Technology STEM Center": [-17.3490, 30.1944], // Chinhoyi, Zimbabwe
+            "University of Rwanda College of Education - Rukara Campus": [-2.0135, 30.1435], // Kayonza, Rwanda
+            "Wachemo University STEM Center": [7.2380, 37.6220], // Hadiya, Ethiopia
+            "Université du Burundi (Mutanga Campus) STEM Center": [-3.3784, 29.3847], // Bujumbura, Burundi
+            "Bahirdar University STEM Center": [11.5973, 37.3908] // Bahidar, Ethiopia
+        };
+
+        // Loading and parsing CSV data
+        const csvData = loadFileData("STEM+Centers+Map.csv");
+        Papa.parse(csvData, {
+            header: true,
+            skipEmptyLines: true,
+            transformHeader: (header) => header.trim().replace(/^"|"$/g, ''),
+            transform: (value, header) => {
+                let cleaned = value.trim().replace(/^"|"$/g, '');
+                if (header === 'PHONE#') {
+                    cleaned = cleaned.replace(/[^0-9+.\s-]/g, '');
+                }
+                if (header === 'EMAIL') {
+                    cleaned = cleaned.replace(/÷/g, '@');
+                    cleaned = cleaned.split(';').map(email => email.trim()).filter(email => email).join(', ');
+                }
+                return cleaned;
+            },
+            complete: (results) => {
+                // Filtering valid centers with coordinates
+                const validCenters = results.data.filter(row => {
+                    return row['HOST'] && centerCoordinates[row['HOST']] && 
+                           (row['CITY'] || row['REGION'] || row['COUNTRY']);
+                });
+
+                // Adding markers with popups for each valid center
+                validCenters.forEach(center => {
+                    const coords = centerCoordinates[center['HOST']];
+                    if (coords) {
+                        const popupContent = `
+                            <div class="popup-content">
+                                <h3>${center['HOST']}</h3>
+                                <p><strong>City:</strong> ${center['CITY'] || 'N/A'}</p>
+                                <p><strong>Region:</strong> ${center['REGION'] || 'N/A'}</p>
+                                <p><strong>Country:</strong> ${center['COUNTRY'] || 'N/A'}</p>
+                                <p><strong>Cluster:</strong> ${center['CLUSTER'] || 'N/A'}</p>
+                                <p><strong>Contact:</strong> ${center['CONTACT'] || 'N/A'}</p>
+                                <p><strong>Phone:</strong> ${center['PHONE#'] || 'N/A'}</p>
+                                <p><strong>Email:</strong> ${center['EMAIL'] || 'N/A'}</p>
+                                <p><strong>Labs:</strong> ${center['LABS'] || 'N/A'}</p>
+                                <p><strong>Funder:</strong> ${center['FUNDER'] || 'N/A'}</p>
+                                <p><strong>Year Established:</strong> ${center['YEAR ESTABLISHED'] || 'N/A'}</p>
+                            </div>
+                        `;
+                        L.marker(coords)
+                            .addTo(map)
+                            .bindPopup(popupContent);
+                    }
+                });
+            },
+            error: (err) => {
+                console.error('Error parsing CSV:', err);
+                L.popup()
+                    .setLatLng(map.getCenter())
+                    .setContent('Error loading STEM Centers data. Please try again later.')
+                    .openOn(map);
+            }
+        });
+    </script>
+</body>
+</html>
