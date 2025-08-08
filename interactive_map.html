@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>STEMpower Presence in Africa</title>
+  <style>
+    #map {
+      height: 600px;
+      width: 100%;
+    }
+    .gm-style-iw {
+      text-align: left;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script>
+    // Replace with your Google Maps API Key
+    const apiKey = "AIzaSyBIgVLlUuY_PUCEZJzGVdrVEnLDt4XoaDM";
+    const map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 5.0, lng: 20.0 }, // Centered on Africa
+      zoom: 3,
+    });
+
+    // Sample data from CSV with approximate coordinates
+    const centerData = {
+      1: { lat: 14.9167, lng: -23.5167, host: "Universidade de Cabo Verde", city: "Praia", region: "Souther Coast", country: "Cape Verde", cluster: "AF-O", contact: "", phone: "", email: "", labs: "COMP, ELEX, 3DP", funder: "STEMpower", year: "2025" },
+      2: { lat: 14.7167, lng: -17.4677, host: "Lamine Gueye High School STEM Center", city: "Dakar", region: "Dakar", country: "Senegal", cluster: "AF-O", contact: "Aboubacry Sadikh NIANG", phone: "221.338.221332", email: "iadakar÷education.sn", labs: "ELEX, ROBOT KITS", funder: "STEMpower", year: "2023" },
+      3: { lat: 12.3714, lng: -1.5197, host: "Université Joseph Ki-Zerbo STEM Center", city: "Ouagadougou", region: "Centre", country: "Burkina Faso", cluster: "AF-O", contact: "Amb. Sylvain Yameogo", phone: "226.702.163.560", email: "yameogo3÷yahoo.fr", labs: "COMP, ELEX", funder: "STEMpower", year: "2024" },
+      4: { lat: 9.0333, lng: 38.7000, host: "Kotebe Science Shared Campus STEM Center", city: "Addis Ababa", region: "Federal", country: "Ethiopia", cluster: "ET-C", contact: "Mr. Abel", phone: "251.939.411696", email: "maranathaabel÷gmail.com", labs: "COMP, ELEX", funder: "GFCT", year: "2015" },
+      5: { lat: -0.3031, lng: 36.0800, host: "Beverly School of Kenya STEM Center", city: "North Kinganop", region: "Nyandarua", country: "Kenya", cluster: "AF-O", contact: "Alice Mudiri", phone: "254.717.586.463", email: "alice÷beverlyschoolofkenya.com", labs: "COMP, ELEX", funder: "GFCT", year: "2013" },
+      6: { lat: 4.8594, lng: 31.5713, host: "Yambio TVET & STEM Center", city: "Yambio", region: "Western Equatoria", country: "South Sudan", cluster: "SS", contact: "Justin Kirima", phone: "211.928.403421", email: "yambiomvtc2019÷yahoo.com", labs: "COMP, ELEX, 3DP, HISC", funder: "STEMpower", year: "2020" },
+      7: { lat: -29.1167, lng: 26.2167, host: "Central University of Technology STEM Center", city: "Bloemfontein", region: "Free State", country: "South Africa", cluster: "AF-O", contact: "Dr. Adeyinka Akanbi", phone: "27.631.356.812", email: "aakanbi÷cut.ac.za", labs: "COMP, ELEX, 3DP", funder: "STEMpower", year: "2024" },
+      8: { lat: -2.5000, lng: 29.9167, host: "Gitwe Adventist College STEM Center", city: "Ruhango", region: "Southern", country: "Rwanda", cluster: "AF-O", contact: "Gilbert Nshimiyimana", phone: "250.783.7110", email: "collegeadventistegitwe÷gmail.com", labs: "COMP, ELEX, 3DP", funder: "STEMpower", year: "2022" }
+    };
+
+    // Add markers to the map
+    for (const [id, data] of Object.entries(centerData)) {
+      const marker = new google.maps.Marker({
+        position: { lat: data.lat, lng: data.lng },
+        map: map,
+        title: data.host
+      });
+
+      const infoWindow = new google.maps.InfoWindow({
+        content: `
+          <div>
+            <strong>Host:</strong> ${data.host || "N/A"}<br>
+            <strong>City:</strong> ${data.city || "N/A"}<br>
+            <strong>Region:</strong> ${data.region || "N/A"}<br>
+            <strong>Country:</strong> ${data.country || "N/A"}<br>
+            <strong>Cluster:</strong> ${data.cluster || "N/A"}<br>
+            <strong>Contact:</strong> ${data.contact || "N/A"}<br>
+            <strong>Phone Number:</strong> ${data.phone || "N/A"}<br>
+            <strong>Email:</strong> ${data.email || "N/A"}<br>
+            <strong>Labs:</strong> ${data.labs || "N/A"}<br>
+            <strong>Funder:</strong> ${data.funder || "N/A"}<br>
+            <strong>Year Established:</strong> ${data.year || "N/A"}
+          </div>
+        `
+      });
+
+      marker.addListener("click", () => {
+        infoWindow.open(map, marker);
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIgVLlUuY_PUCEZJzGVdrVEnLDt4XoaDM&callback=initMap" async defer></script>
+</body>
+</html>
